@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+button{
+    background-color: rgb(171, 171, 240);
+    padding: 20px;
+    margin: 2px;
+}

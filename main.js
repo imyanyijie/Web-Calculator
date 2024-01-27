@@ -22,7 +22,10 @@ function subtract(x,y){
 }
 
 function divide(x,y){
-    return x/y;
+    if(y==0)
+        alert("do you even math?")
+    else
+        return x/y;
 }
 
 function multiply(x,y){

@@ -3,13 +3,33 @@
     margin: 0px;
 }
 .calculator{
+    width: 220px;
     display: flex;
     flex-direction: column;
     padding: 2px;
+    background-color: cadetblue;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50% auto;
+}
+.display{
+    height: 40px;
+    width: auto;
+    text-align: end;
+    font-weight: bold;
+    font-size: larger;
+    background-color: white;
+    border: 2px white solid;
 }
 
 button{
     background-color: rgb(171, 171, 240);
-    padding: 20px;
-    margin: 2px;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 1px;
+    border-radius: 15px;
+    border-style: solid;
+}
+#zero{
+min-width: 106px;
 }
